@@ -1,0 +1,15 @@
+<!-- 添加数据 -->
+<input placeholder="输入名字" bindinput="addName"></input>
+<input placeholder="输入年龄" bindinput="addAge"></input>
+
+<input></input>
+
+<button bindtap = "addData" type = "primary">添加数据</button>
+<button bindtap = "getData">查询数据</button>
+
+<input placeholder="输入id" bindinput="addID" type="number"></input>
+<input placeholder="输入学历" bindinput="addXL" type="number"></input>
+<input placeholder="输入爱好" bindinput="addHB" type="number"></input>
+<input placeholder="输入运动" bindinput="addSP" type="number"></input>
+<input placeholder="输入音乐" bindinput="addMU" type="number"></input>
+<button bindtap="addData_2" type="primary">确定录入</button>

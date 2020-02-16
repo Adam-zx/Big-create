@@ -1,0 +1,10 @@
+<!--pages/klu_2/klu_2.wxml-->
+<button bindtap="getPoint">注册</button>
+<button bindtap="getData">获取信息</button>
+<button bindtap="get_pc_o">得到初始中心点</button>
+<button bindtap="mark">计算距离</button>
+<button bindtap="caculate">计算质心</button>
+<button bindtap="move">组合版本</button>
+<button bindtap="updata">数据库更新</button>
+<button bindtap="klu">一键分类</button>
+<view>{{pa[0].XL}}</view>
